@@ -65,7 +65,8 @@ export class SignUpForm extends React.Component {
             <i className="fab fa-facebook-square" /> Sign In With Facebook
           </Button>
           <Button outline color="secondary">
-            <i className="far fa-envelope" />Sign In With Gmail
+            <i className="far fa-envelope" />
+            Sign In With Gmail
           </Button>
         </div>
         <h6>Already have an account?</h6>

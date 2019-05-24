@@ -7,7 +7,6 @@ export class Location extends React.Component {
     location: "",
     states: [],
     zip: ""
-
   };
 
   componentDidMount() {
@@ -25,7 +24,7 @@ export class Location extends React.Component {
 
   onSubmit = e => {
     e.preventDefault();
-    this.props.onSubmit({location: this.state.location, zip: this.state.zip });
+    this.props.onSubmit({ location: this.state.location, zip: this.state.zip });
   };
 
   render() {

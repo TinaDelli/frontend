@@ -21,7 +21,7 @@ class EditForm extends React.Component {
     let value = e.target.value;
     this.setState({
       ...this.state,
-      [e.target.name]: value,
+      [e.target.name]: value
     });
   };
 
